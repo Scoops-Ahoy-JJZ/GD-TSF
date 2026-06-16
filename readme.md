@@ -22,7 +22,7 @@ The model addresses the challenges of extracting long-term temporal information 
 - **Efficient Deployment**: Optimized for resource-constrained environments, such as edge devices.
 
 ## Model Architecture
-The DualCascadeTSF-MobileNetV2 model integrates the following components:
+The GD-TSF-MobileNetV2 model integrates the following components:
 
 ### DualCascadeTSF Module:
 - Introduces feature fusion after each temporal shift operation to strengthen the correlation between feature maps in the temporal dimension.
@@ -33,7 +33,7 @@ The DualCascadeTSF-MobileNetV2 model integrates the following components:
 - Provides a lightweight backbone for efficient inference.
 
 ### Overall Structure:
-- The DualCascadeTSF module is placed before each depthwise convolution in the bottleneck layers of MobileNetV2 to balance performance and efficiency.
+- The GD-TSF module is placed before each depthwise convolution in the bottleneck layers of MobileNetV2 to balance performance and efficiency.
 - For more details, refer to the paper.
 
 ## Datasets
@@ -56,9 +56,9 @@ The DualCascadeTSF-MobileNetV2 model achieves the following results on the bench
 
 | Dataset        | Accuracy (%) | Parameters (MB) | Memory (MB) | Training Time (min) |
 |----------------|--------------|-----------------|-------------|---------------------|
-| Crowd Violence | 98.98        | 16.99           | 347.13      | 35.92               |
-| RWF-2000       | 88.5         | 16.99           | 347.13      | 35.92               |
-| Hockey Fights  | 98.0         | 16.99           | 347.13      | 35.92               |
+| Crowd Violence | 98.98        | 16.99           | 347.13      | 42.59               |
+| RWF-2000       | 88.75         | 16.99           | 347.13      | 42.59               |
+| Hockey Fights  | 98.0         | 16.99           | 347.13      | 42.59               |
 
 ## Contributions
 We welcome contributions to improve the model's performance, optimize its structure, or extend its applications. To contribute:
@@ -72,4 +72,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For any questions or feedback, please contact:
 
-Yong Li: lilili819@163.com
+Yong Li: liyong@alumni.nudt.edu.cn
