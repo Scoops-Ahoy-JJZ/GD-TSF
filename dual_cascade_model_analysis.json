@@ -1,0 +1,9 @@
+{
+    "params_m": 4.456454,
+    "model_size_mb": 17.000022888183594,
+    "training_memory_mb": 1156.0015563964844,
+    "inference_time_ms": 6.271378993988037,
+    "fps": 159.454563495307,
+    "fps_effective": 19.931820436913377,
+    "gflops": 5.0
+}
